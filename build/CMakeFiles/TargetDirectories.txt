@@ -1,0 +1,5 @@
+C:/Github Repositories/rover-spring-2026/build/CMakeFiles/ALL_BUILD.dir
+C:/Github Repositories/rover-spring-2026/build/CMakeFiles/ZERO_CHECK.dir
+C:/Github Repositories/rover-spring-2026/build/src/net/CMakeFiles/net.dir
+C:/Github Repositories/rover-spring-2026/build/src/video/CMakeFiles/video.dir
+C:/Github Repositories/rover-spring-2026/build/src/app/CMakeFiles/rover_spring26.dir

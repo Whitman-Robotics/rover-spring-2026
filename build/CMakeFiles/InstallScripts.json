@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Github Repositories/rover-spring-2026/build/cmake_install.cmake",
+		"C:/Github Repositories/rover-spring-2026/build/src/common/cmake_install.cmake",
+		"C:/Github Repositories/rover-spring-2026/build/src/net/cmake_install.cmake",
+		"C:/Github Repositories/rover-spring-2026/build/src/video/cmake_install.cmake",
+		"C:/Github Repositories/rover-spring-2026/build/src/app/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

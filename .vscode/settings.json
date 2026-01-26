@@ -1,0 +1,4 @@
+// just because it gets annoying looking at the output scroll by every time. press F7 to build.
+{
+  "cmake.configureOnSave": false
+}
