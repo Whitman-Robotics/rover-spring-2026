@@ -10,6 +10,9 @@ bool InitNetwork(int port);
 // Returns the command string or an empty string if nothing is waiting
 std::string GetNextCommand();
 
+//checks if client_fd is -1, if so calls accept()
+void AcceptConnection();
+
 // Sends telemetry data (graphs, status, etc.) back to the laptop
 // Returns true if sent successfully
 bool SendTelemetry(const std::string& data);

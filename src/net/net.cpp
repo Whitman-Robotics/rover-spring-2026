@@ -19,10 +19,14 @@ bool InitNetwork(int port) {
 }
 
 std::string GetNextCommand() {
-    // 1. Check if client_fd is valid
+    // 1. Check if client_fd is -1 (call AcceptConnection)
     // 2. Use recv() with MSG_DONTWAIT to read data without hanging the CPU
     // 3. Buffer the result and return as string
     return "";
+}
+
+void AcceptConnection() {
+    //checks if client_fd is valid and if so calls accept
 }
 
 bool SendTelemetry(const std::string& data) {

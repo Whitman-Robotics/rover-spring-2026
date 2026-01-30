@@ -1,5 +1,6 @@
 #include <iostream>
 #include <chrono>
+#include <string>
 #include <thread>
 #include "net.h"
 
@@ -14,7 +15,10 @@ int main() {
 
     bool running = true;
     while (running) {
-        // 1. Check for incoming commands (Non-blocking)
+        std::string cmd = GetNextCommand();
+        if (!cmd.empty()) {
+            std::cout << cmd << std::endl;
+        }
         // 2. Update motor controllers/GPIO
         // 3. Send telemetry back to laptop
 
